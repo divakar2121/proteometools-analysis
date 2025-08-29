@@ -58,7 +58,7 @@ download_files() {
     shift
     local files=("$@")
     
-    echo "📥 Downloading $file_type files..."
+    echo " Downloading $file_type files..."
     
     for file in "${files[@]}"; do
         echo "----------------------------------------"
@@ -87,10 +87,10 @@ download_files() {
         wget -c --progress=bar:force "$BASE_URL/$file"
         
         if [ $? -eq 0 ]; then
-            echo "✅ Successfully downloaded: $file"
+            echo " Successfully downloaded: $file"
             ls -lh "$file" | awk '{print "📊 File size:", $5}'
         else
-            echo "❌ Failed to download: $file"
+            echo " Failed to download: $file"
         fi
         
         cd - > /dev/null
@@ -106,24 +106,24 @@ download_files "PROCESSED" "${PROCESSED_FILES[@]}"
 
 # Generate summary report
 echo "========================================="
-echo "📊 DOWNLOAD SUMMARY REPORT"
+echo " DOWNLOAD SUMMARY REPORT"
 echo "========================================="
 
-echo "🔬 RAW FILES:"
+echo " RAW FILES:"
 echo "First pools: $(find raw_files/first_pools -name "*.raw" 2>/dev/null | wc -l) files"
 echo "Second pools: $(find raw_files/second_pools -name "*.raw" 2>/dev/null | wc -l) files"
 echo "SRM pools: $(find raw_files/srm_pools -name "*.raw" 2>/dev/null | wc -l) files"
 echo "Total RAW size: $(du -sh raw_files 2>/dev/null | cut -f1)"
 
 echo ""
-echo "📈 PROCESSED FILES:"
+echo " PROCESSED FILES:"
 echo "First pools: $(find processed_files/first_pools -name "*.zip" 2>/dev/null | wc -l) files"
 echo "Second pools: $(find processed_files/second_pools -name "*.zip" 2>/dev/null | wc -l) files"
 echo "SRM pools: $(find processed_files/srm_pools -name "*.zip" 2>/dev/null | wc -l) files"
 echo "Total PROCESSED size: $(du -sh processed_files 2>/dev/null | cut -f1)"
 
 echo ""
-echo "🎯 ANALYSIS OPPORTUNITIES:"
+echo " ANALYSIS OPPORTUNITIES:"
 echo "✅ Method comparison: 3xHCD vs 2xIT_2xHCD vs ETD vs DDA"
 echo "✅ Pool diversity: 200 different peptide pools represented"
 echo "✅ Batch effects: first_pool vs second_pool comparison"
@@ -133,6 +133,6 @@ echo "✅ Technical replicates: R1 vs R2 analysis"
 echo "✅ Raw vs Processed: Complete pipeline validation"
 
 echo ""
-echo "🚀 TOTAL DATASET SIZE: ~5.5 GB"
-echo "🎉 Download completed successfully!"
+echo " TOTAL DATASET SIZE: ~5.5 GB"
+echo " Download completed successfully!"
 echo "========================================="
