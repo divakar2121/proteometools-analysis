@@ -1,0 +1,4 @@
+input_file,output_file,input_size_mb,output_size_mb,conversion_time_s,success,pool_type
+01709a_GB4-TUM_first_pool_125_01_01-3xHCD-1h-R1.raw,01709a_GB4-TUM_first_pool_125_01_01-3xHCD-1h-R1.mzML.gz,715.6818237304688,154.17535877227783,124.39005732536316,True,first_pools
+01625b_GF4-TUM_first_pool_30_01_01-3xHCD-1h-R1.raw,01625b_GF4-TUM_first_pool_30_01_01-3xHCD-1h-R1.mzML.gz,755.0221996307373,159.464337348938,130.05804347991943,True,first_pools
+01650b_BF7-TUM_first_pool_96_01_01-3xHCD-1h-R2.raw,01650b_BF7-TUM_first_pool_96_01_01-3xHCD-1h-R2.mzML.gz,846.8162441253662,172.19884395599365,141.06891798973083,True,first_pools

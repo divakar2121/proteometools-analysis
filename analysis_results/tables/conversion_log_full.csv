@@ -1,0 +1,5 @@
+input_file,output_file,input_size_mb,output_size_mb,conversion_time_s,success,pool_type
+01709a_GB4-TUM_first_pool_125_01_01-3xHCD-1h-R1.raw,01709a_GB4-TUM_first_pool_125_01_01-3xHCD-1h-R1.mzML.gz,715.6818237304688,154.17535877227783,127.21547055244446,True,first_pools
+01625b_GF4-TUM_first_pool_30_01_01-3xHCD-1h-R1.raw,01625b_GF4-TUM_first_pool_30_01_01-3xHCD-1h-R1.mzML.gz,755.0221996307373,159.464337348938,133.85245418548584,True,first_pools
+01748a_GD1-TUM_second_pool_10_02_01-ETD-1h-R1.raw,01748a_GD1-TUM_second_pool_10_02_01-ETD-1h-R1.mzML.gz,395.24681091308594,37.223416328430176,33.775352001190186,True,second_pools
+01640c_BA4-Thermo_SRM_Pool_25_01_01-2xIT_2xHCD-1h-R2.raw,01640c_BA4-Thermo_SRM_Pool_25_01_01-2xIT_2xHCD-1h-R2.mzML.gz,666.5563926696777,250.58473110198975,166.76861715316772,True,srm_pools

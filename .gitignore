@@ -1,0 +1,39 @@
+# Large data files
+*.raw
+*.mzML
+*.mzML.gz
+*.zip
+
+# Large result files (keep small ones)
+analysis_results/plots/*.png
+analysis_results/*.json
+converted_mzml/
+raw_files/
+processed_files/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

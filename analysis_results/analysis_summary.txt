@@ -1,0 +1,35 @@
+PROTEOMETOOLS COMPREHENSIVE ANALYSIS REPORT
+==================================================
+
+Analysis Date: 2025-08-29 10:22:41
+Total Datasets Analyzed: 14
+Methods: ETD, 2xIT_2xHCD, DDA, 3xHCD
+Pool Types: second_pool, SRM_pool, first_pool
+
+KEY FINDINGS:
+--------------------
+* Total Peptides Identified: 13,709
+* Total Proteins Identified: 192
+* Proteins Matched to Human DB: 50
+* Overall Match Rate: 26.04%
+
+METHOD PERFORMANCE:
+--------------------
+* ETD: 554 avg peptides, 11 avg proteins
+* 2xIT_2xHCD: 839 avg peptides, 6 avg proteins
+* DDA: 1310 avg peptides, 11 avg proteins
+* 3xHCD: 1070 avg peptides, 10 avg proteins
+
+POOL TYPE PERFORMANCE:
+--------------------
+* second_pool: 651 avg peptides, 9 avg proteins
+* SRM_pool: 729 avg peptides, 10 avg proteins
+* first_pool: 1378 avg peptides, 10 avg proteins
+
+QUALITY METRICS:
+--------------------
+* Average Peptides per Dataset: 979.21
+* Average Proteins per Dataset: 9.64
+* Average Database Match Rate: 23.09%
+* Peptide Range: 219 - 3002
+* Protein Range: 4 - 15
