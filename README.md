@@ -32,14 +32,14 @@ I analyzed protein data from mass spectrometry experiments to understand:
 
 ## What's in this project?
 
-## 🔬 Key Analysis Files:
+##  Key Analysis Files:
 - **protein_analysis.ipynb**: Complete workflow from raw data to results
 - **maxquant_analysis_summary.csv**: 14 datasets with peptide/protein counts
 - **comprehensive_qc_analysis.csv**: Quality metrics for 265,451 spectra
 - **final_integrated_analysis.csv**: Method comparison (3xHCD vs ETD)
 - **protein_database_matches.csv**: 74 proteins validated against human database
 
-### 📊 What's NOT included (due to size):
+###  What's NOT included (due to size):
 - Raw mass spectrometry files (*.raw) 
 - Converted mzML files (*.mzML.gz) 
 - MaxQuant processed files (*.zip) 
