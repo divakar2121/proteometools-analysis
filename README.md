@@ -1,6 +1,6 @@
 #  My Proteomics Analysis Journey
 
-Hi there!  Welcome to my proteomics analysis project. I'm learning computational proteomics and wanted to share my journey analyzing mass spectrometry data.
+Welcome to my proteomics analysis project. I'm learning computational proteomics and wanted to share my journey analyzing mass spectrometry data.
 
 ##  What is this project about?
 
