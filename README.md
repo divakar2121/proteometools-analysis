@@ -40,6 +40,6 @@ I analyzed protein data from mass spectrometry experiments to understand:
 - **protein_database_matches.csv**: 74 proteins validated against human database
 
 ### 📊 What's NOT included (due to size):
-- Raw mass spectrometry files (*.raw) - ~4.1 GB
-- Converted mzML files (*.mzML.gz) - ~600 MB  
-- MaxQuant processed files (*.zip) - ~300 MB
+- Raw mass spectrometry files (*.raw) 
+- Converted mzML files (*.mzML.gz) 
+- MaxQuant processed files (*.zip) 
