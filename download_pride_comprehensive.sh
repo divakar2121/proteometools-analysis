@@ -1,5 +1,5 @@
 #!/bin/bash
-# save as download_pride_comprehensive.sh
+
 
 BASE_URL="ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2017/02/PXD004732"
 
